@@ -19,7 +19,8 @@ public class ConverterTest {
 
     @Test
     public void shouldReturnFarenheitWhenCelciusIsInput() {
-        double expectedFarenheitResult = 75;
+        //se espera el valor 75 si el valor es diferente a 75 manda error en la prueba que detecta jenkins :D
+        double expectedFarenheitResult = 78;
         double celsiusInput = 23.88;
 
         assertEquals(expectedFarenheitResult,
